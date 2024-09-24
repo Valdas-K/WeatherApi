@@ -23,13 +23,13 @@ namespace WeatherApi
                         Console.WriteLine(result);
                     }
                     else Console.WriteLine("Klaida. Bandykite dar kartą");
-                    Console.WriteLine("Jei norite tęsti programą spauskite 1");
-                    choice = Console.ReadLine();
-                    if (choice != "1")
-                    {
-                        Console.WriteLine("Viso gero!");
-                        Console.ReadLine();
-                    }
+                }
+                Console.WriteLine("Jei norite tęsti programą spauskite 1");
+                choice = Console.ReadLine();
+                if (choice != "1")
+                {
+                    Console.WriteLine("Viso gero!");
+                    Console.ReadLine();
                 }
             }
         }
